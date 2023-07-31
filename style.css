@@ -1,0 +1,44 @@
+body {
+    background-image: url(forest-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+}
+
+div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    padding: 10px 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: #000000 5px 5px 20px;
+    border-radius: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+div a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+div a:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+div p {
+    margin: 0 0 0 auto;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
